@@ -1,0 +1,43 @@
+main {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 16pt;
+    }
+
+input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 12pt;
+    }
+input[type=checkbox] {
+      height: 15px;
+      width: 15px;
+      margin: 8px 0;
+    }
+button {
+      border-radius: 10px;
+      background-color: #0099ff;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+h1, h2{
+  text-align: center;
+}
+
+h2{
+  font-size: 25pt;
+}

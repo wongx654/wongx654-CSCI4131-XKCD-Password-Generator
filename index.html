@@ -8,7 +8,7 @@
       <h1>XKCD Password Generator</h1>
       <div>
         <label for="MinimumWL">Minimum Word Length</label>
-        <select id="MinimumWL" onchange="calculateTotal(this)">
+        <select id="MinimumWL">
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
@@ -17,7 +17,7 @@
       </div>
       <div>
         <label for="MaximumWL">Maximum Word Length</label>
-        <select id="MaximumWL" onchange="calculateTotal(this)">
+        <select id="MaximumWL">
           <option value="4">4</option>
           <option value="5">5</option>
           <option value="6">6</option>
@@ -26,7 +26,7 @@
       </div>
       <div>
         <label for="MaxLength">Max Length</label>
-        <input type="text" id="MaxLength" value = 16 oninput="calculateTotal(this)">
+        <input type="text" id="MaxLength" value = 16>
       </div>
       <div>
         <input type="checkbox" id="EasyTyping"> Easy Typing
